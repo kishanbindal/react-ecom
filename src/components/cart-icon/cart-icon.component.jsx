@@ -5,14 +5,19 @@ import './cart-icon.styles.scss';
 
 const CartIcon = () => {
 
-    const { showCartDropDown, setShowCartDropDown } = useContext(CartContext)
+    const { cartItems,showCartDropDown, setShowCartDropDown, cartCount } = useContext(CartContext)
 
     const toggleCartDropDown = () => setShowCartDropDown(!showCartDropDown);
+
+    // let numberOfItems = 0;
+    // cartItems.forEach( item => {
+    //     numberOfItems += item.quantity;
+    // })
 
     return(
         <div className="cart-icon-container" onClick={toggleCartDropDown}>
             <ShoppingIcon className='shopping-icon'/>
-            <span className='item-count'>0</span>
+            <span className='item-count'>{cartCount}</span>
         </div>
     )
 }
