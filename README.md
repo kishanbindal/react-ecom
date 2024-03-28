@@ -1,3 +1,7 @@
+## Configuring Firebase
+Create a new file under src named `firebaseConfig.js`. 
+Export Configuration as `firebaseConfig` 
+
 ## Available Scripts
 
 In the project directory, you can run:
