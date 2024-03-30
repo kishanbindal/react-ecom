@@ -9,6 +9,8 @@ export const CategoriesContext = createContext({
 });
 
 export const CategoriesProvider = ({children}) => {
+
+    
     // Running first time to upload data to firebase db
     // Not recommended.
     // useEffect(()=> {

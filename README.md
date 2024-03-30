@@ -1,5 +1,5 @@
 ## Configuring Firebase
-Create a new file under src named `firebaseConfig.js`. 
+Create a new file under src named `firebaseConfig.js`.\
 Export Configuration as `firebaseConfig` 
 
 ## Available Scripts
