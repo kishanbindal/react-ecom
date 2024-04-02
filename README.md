@@ -1,3 +1,5 @@
+`Link to view project:`[netlify app](https://main--silly-pavlova-087b04.netlify.app/)
+
 ## Configuring Firebase
 Create a new file under src named `firebaseConfig.js`.\
 Export Configuration as `firebaseConfig` 
